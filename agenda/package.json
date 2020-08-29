@@ -1,0 +1,22 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "projeto agenda aula caelum",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 5000"
+  },
+  "keywords": [
+    "js",
+    "agenda",
+    "aula",
+    "caelum"
+  ],
+  "author": "Bruna De Biasi",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.0",
+    "lite-server": "^2.5.3"
+  }
+}
